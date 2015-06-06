@@ -107,6 +107,7 @@ public class MessageServiceAspect {
 	}
 
 	/**
+	 * Added salutation to message
 	 * 
 	 * @param recivedMessage
 	 * @return
