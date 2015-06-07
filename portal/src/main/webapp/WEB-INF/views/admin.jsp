@@ -5,14 +5,11 @@
 <title>Portal</title>
 </head>
 <body>
-      <h1>Welcome Page !</h1>
+      <h1>Admin Dashboard !</h1>
 
-      <h2>Welcome : ${pageContext.request.userPrincipal.name}</h2>
+      <h2>Hi! ${pageContext.request.userPrincipal.name}</h2>
       <h3>
-            <a href="<c:url value="/home" />"> Go to your home page</a>
-      </h3>
-      <h3>
-            <form name="logout" action="/logout" method="post">
+            <form class="form-inline" action="/logout" method="post">
                   <input type="submit" value="Log out" /> <input type="hidden"
                         name="${_csrf.parameterName}" value="${_csrf.token}" />
             </form>

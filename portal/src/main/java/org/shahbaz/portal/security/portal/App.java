@@ -8,14 +8,13 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 @Configuration
 @EnableAutoConfiguration
-public class App {
-	public static void main(String[] args) {
-		String webPort = System.getenv("PORT");
-		if (webPort == null || webPort.isEmpty()) {
-			webPort = "5050";
-		}
-		System.setProperty("server.port", webPort);
-		SpringApplication.run(App.class, args);
-	}
+public class App
+{
+    public static void main( String[] args )
+    {
 
+        SpringApplication.run( new Class[] { App.class },
+                               args );
+
+    }
 }
