@@ -1,4 +1,4 @@
-package org.shahbaz.portal.security.portal.config;
+package org.shahbaz.portal.config;
 
 import javax.sql.DataSource;
 

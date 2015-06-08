@@ -1,6 +1,6 @@
-package org.shahbaz.portal.security.portal.controller;
+package org.shahbaz.portal.controller;
 
-import org.shahbaz.portal.security.portal.utils.UIConstants;
+import org.shahbaz.portall.utils.UIConstants;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

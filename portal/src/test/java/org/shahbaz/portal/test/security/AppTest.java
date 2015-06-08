@@ -1,4 +1,4 @@
-package org.shahbaz.portal.security.portal;
+package org.shahbaz.portal.test.security;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

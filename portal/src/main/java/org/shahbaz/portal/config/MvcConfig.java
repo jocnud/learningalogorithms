@@ -1,4 +1,4 @@
-package org.shahbaz.portal.security.portal.config;
+package org.shahbaz.portal.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @EnableWebMvc
 @ComponentScan( basePackages = { "org.shahbaz.*" } )
-public class WebMvcConfig extends WebMvcConfigurerAdapter
+public class MvcConfig extends WebMvcConfigurerAdapter
 {
 
     @Override

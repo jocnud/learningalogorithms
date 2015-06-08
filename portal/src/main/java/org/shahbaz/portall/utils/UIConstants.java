@@ -1,4 +1,4 @@
-package org.shahbaz.portal.security.portal.utils;
+package org.shahbaz.portall.utils;
 
 public class UIConstants {
 
